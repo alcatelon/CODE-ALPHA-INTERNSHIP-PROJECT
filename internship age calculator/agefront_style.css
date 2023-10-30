@@ -1,0 +1,57 @@
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif;
+}
+
+.top-menu {
+    background-color: #000; /* Black */
+    padding: 10px;
+    text-align: left;
+}
+
+.heading {
+    font-size: 24px;
+    color: #FFD700; /* Golden yellow */
+    font-family: 'MedievalSharp', cursive; /* Medieval font */
+    margin: 0;
+}
+
+.section {
+    text-align: center;
+    padding: 100px 20px;
+    height: 300px;
+    background-color: #FFD700; /* Golden yellow */
+}
+
+.section-context {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.section-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #FF1493;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.section-button:hover {
+    background-color: #FF69B4;
+}
+
+.additional-content {
+    font-size: 18px;
+    color: black;
+}
+
+.footer {
+    background-color: #000; /* Black */
+    color: white;
+    padding: 20px 10px; /* Increased padding */
+    text-align: center;
+}

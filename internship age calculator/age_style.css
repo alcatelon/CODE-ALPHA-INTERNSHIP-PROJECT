@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #FFD700; /* Vibrant color for body */
+}
+
+.top-menu {
+    background-color: black;
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.heading {
+    font-size: 24px;
+    color: #FFD700; /* Same color as body */
+    font-family: 'MedievalSharp', cursive; /* Medieval font */
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 100px auto; /* Centering the container */
+    width: 400px; /* Make the container a bit wider */
+}
+
+.input-container {
+    margin-bottom: 20px;
+
+}
+
+.dob-input {
+    width: 40px; /* Wider input boxes */
+    padding: 10px; /* Larger input padding */
+    border: 2px solid #FF5733; /* Tangerine border color */
+    border-radius: 10px; /* Rounder corners */
+    font-size: 18px; /* Slightly larger font size */
+    text-align: center;
+    margin: 0 5px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    padding: 12px 24px; /* Larger button padding */
+    font-size: 16px;
+    background-color: #FF1493; /* Dark pink button color */
+    border: none;
+    border-radius: 10px; /* Rounder corners */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF69B4; /* Lighter pink on hover */
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.container h1, .container button {
+    text-align: center; /* Center the heading and the button */
+}
+.age{
+    color : #FF1493;
+}
